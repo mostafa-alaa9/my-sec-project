@@ -462,6 +462,21 @@ header nav .form i {
   border: none;
   text-transform: uppercase;
 }
+@media (max-width: 767px) {
+    .video .text { 
+    padding: 10px;
+    }
+    .video .text h2 {
+  margin: 0;
+}
+    video .text p {
+  margin: 0;
+}
+    .video .text button{
+        padding: 5px 10px; 
+        margin: 0;
+    }
+}
 /* End Video */
 /* Start About */
 .about {
